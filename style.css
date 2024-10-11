@@ -51,7 +51,6 @@ section.texto {
 }
 
 section.texto > h2 {
-    position: relative;
     font-variant: small-caps;
     font-size: 1.8em;
     text-align: center;
