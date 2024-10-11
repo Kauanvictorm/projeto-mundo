@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor1: #45718C;
+    --cor2: #80A7BF;
+    --cor3: #657351;
+    --cor4: #BF895A;
+    --cor5: #F2C49B;
+
+    --fonte1: Arial, Helvetica, sans-serif;
+    --fonte2: "Bebas Neue", sans-serif;
+
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html body {
+    min-height: 100vh;
+    background-color: var(--cor1);
+    font-family: var(--fontep)
+}
+header {
+    position: relative;
+    background-color: var(--cor1);
+    padding: 40px 20px;
+}
+header > h1 {
+    font-size: 8vw;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+}
+
+section {
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    padding-left: 10px;
+    font-size: 2vw;
+}
+section.texto {
+    background-color: white;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+section.texto > h2 {
+    position: relative;
+    font-variant: small-caps;
+    font-size: 1.8em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+h2::before {
+    content: '📍';
+    filter: grayscale(100%)
+}
+
+section.texto > p {
+    padding:0px 10px;
+    line-height: 2em;
+    font-size: 1.3em;
+    text-indent: 20px;
+    text-align: justify;
+}
+section#china {
+    background-image: linear-gradient(90deg, #45718cce,#80a7bf);
+}
+section#jordania {
+    background-image: linear-gradient(90deg, #BF895A, #F2C49B);
+}
+section#brasil {
+    background-image: linear-gradient(90deg, #80A7BF, #80a7bf);
+}
+section#peru {
+    background-image: linear-gradient(90deg, #657351, #657351);
+}
+section#mexico {
+    background-image: linear-gradient(90deg, #495e6b, #536d7c);
+}
+section#italia {
+    background-image: linear-gradient(90deg, #805a39, #bf895a8e);
+}
+section#india {
+    background-image: linear-gradient(90deg, #5b798b, #5b7788);
+}
+
+section.imagem {
+   height: 350px;
+    
+}
+section#img1 {
+    background-image: url('imagens/muralha-da-china.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
+}
+section#img2 {
+    background-image: url('imagens/ruinas-jordania.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
+}
+section#img3 {
+    background-image: url('imagens/cristo-redentor.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
+}
+section#img4 {
+    background-image: url('imagens/machu-picchu.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
+}
+section#img5 {
+    background-image: url('imagens/chichén-itzá.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
+}
+section#img6 {
+    background-image: url('imagens/coliseu.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
+}
+section#img7 {
+    background-image: url('imagens/taj-mahal.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
+}
+
+
+footer {
+    background-color: var(--cor1);
+    color: white;
+    text-align: center;
+    font-family: var(--fonte1);
+    padding: 10px;
+    font-size: 0.5em;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
